@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Knowledge Graph Visualizer</title>
+
+<script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+#cy{
+    width:100vw;
+    height:100vh;
+}
+
+#info{
+    position:absolute;
+    right:10px;
+    top:10px;
+    background:white;
+    border:1px solid #ccc;
+    padding:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="cy"></div>
+<div id="info">Click node</div>
+
+<script src="graph.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    { "data": { "id": "einstein", "label": "Albert Einstein", "source": "Wikidata" }},
+    { "data": { "id": "einstein_db", "label": "Albert Einstein", "source": "DBpedia" }},
+    { "data": { "id": "germany", "label": "Germany", "source": "Wikidata" }},
+    { "data": { "id": "physics", "label": "Physics", "source": "Concept" }}
+  ],
+  "edges": [
+    { "data": { "source": "einstein", "target": "einstein_db", "label": "sameAs" }},
+    { "data": { "source": "einstein", "target": "germany", "label": "bornIn" }},
+    { "data": { "source": "einstein", "target": "physics", "label": "field" }}
+  ]
+}
